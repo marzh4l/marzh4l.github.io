@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>File Upload Example</title>
+</head>
+<body>
+  <form name="frmUpload">
+    <!-- Real Input field, but hidden-->
+    <input type="file" id="myFile" accept=".jpg, .jpeg, .png" id="myFile" >
+
+    <!-- Fake field to fool the user -->
+    <!-- <input type="text" name="txtFakeText" readonly="true"> -->
+
+    <!-- Button to invoke the click of the File Input -->
+    <input type="button" onclick="HandleFileButtonClick();" 
+         value="Upload File" style="background: red;">
+  </form>
+</body>
+  <script language="JavaScript" type="text/javascript">
+  // function HandleFileButtonClick()
+  // {
+  //   document.frmUpload.myFile.click();
+  //   document.frmUpload.txtFakeText.value = document.frmUpload.myFile.value;
+  // }
+  </script>
+</html>
